@@ -9,8 +9,8 @@ export default function TermsConditions() {
     <>
       <Head>
           <title>Halal Delight BE - Terms & Conditions</title>
-          <meta name="description" content="Our Terms and Conditions govern the use of our website and the purchase of Halal candies and sweets online, ensuring a transparent and fair relationship with our customers in Europe."/>
-          <meta name="og:description" content="Explore our Terms and Conditions to understand the guidelines for using our website and making online purchases of Halal candies and sweets, fostering a transparent and equitable relationship with our customers in Europe."/>
+          <meta name="description" content="Onze voorwaarden regelen de online aankoop van Halal snoep voor Europese klanten. Nos conditions régissent l'achat en ligne de bonbons Halal pour les clients européens."/>
+          <meta name="og:description" content="Onze voorwaarden regelen de online aankoop van Halal snoep voor Europese klanten. Nos conditions régissent l'achat en ligne de bonbons Halal pour les clients européens."/>
           <meta property="og:url" content="https://www.halaldelight.be/privacy-policy"/>
           <meta property="og:title" content="Halal Delight BE"/>
       </Head>

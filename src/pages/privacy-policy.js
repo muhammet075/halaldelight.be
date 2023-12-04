@@ -9,8 +9,8 @@ export default function PrivacyPolicy() {
     <>
       <Head>
           <title>Halal Delight BE - Privacy Policy</title>
-          <meta name="description" content="Our Privacy Policy outlines how we handle your personal information as a provider of Halal candies and sweets available for online purchase, serving customers in Europe."/>
-          <meta name="og:description" content="Explore our Privacy Policy to understand how we manage your personal information while providing Halal candies and sweets for online purchase, serving customers in Europe."/>
+          <meta name="description" content="Ons privacybeleid legt uit hoe we uw persoonlijke informatie behandelen als aanbieder van online Halal snoep voor klanten in Europa. - Notre politique de confidentialité explique le traitement de vos données en tant que fournisseur de bonbons Halal en ligne pour les clients européens."/>
+          <meta name="og:description" content="Ons privacybeleid legt uit hoe we uw persoonlijke informatie behandelen als aanbieder van online Halal snoep voor klanten in Europa. - Notre politique de confidentialité explique le traitement de vos données en tant que fournisseur de bonbons Halal en ligne pour les clients européens."/>
           <meta property="og:url" content="https://www.halaldelight.be/privacy-policy"/>
           <meta property="og:title" content="Halal Delight BE"/>
       </Head>
