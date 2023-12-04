@@ -1,0 +1,159 @@
+.language{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.language > div{
+    text-align: center;
+    position: relative;
+}
+
+.language > div > img{
+    position: absolute;
+    width: 350px;
+    height: auto;
+    top: -240px;
+    right: -150px;
+}
+
+.language > div h2{
+    font-family: "Fredoka";
+    font-size: 2.5em;
+    font-weight: 600;
+    color: #ffff;
+    margin-bottom: 50px;
+}
+
+.language > div > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.language > div > div{
+    text-decoration: none;
+    margin-bottom: 200px;
+}
+
+.language > div > div section{
+    width: 25%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffff;
+    padding: 30px 0;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.language > div > div section img{
+    width: 125px;
+    height: auto;
+}
+
+.language > div > div section h3{
+    font-size: 1.5em;
+    font-family: "Fredoka";
+    font-weight: 500;
+    margin-bottom: 30px;
+    color: #444444;
+}
+
+.language > div > div section a{
+    font-family: 'Fredoka';
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 500;
+    padding: 10px 0;
+    width: 60%;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    color: #ffff;
+    background-color: #3bbeff;
+    box-shadow: 0 2px 4px rgba(0,0,0,.4), 0 7px 13px -3px rgba(0,0,0,.3), inset 0 -3px 0 rgba(0,0,0,.2);
+}
+
+.language > div > div section a:hover{
+    background-color: #0090d8;
+    transition: 0.2s ease;
+}
+
+@media only screen and (min-width: 1500px) {
+    .language > div > img{
+        right: -280px;
+    }
+}
+
+@media only screen and (max-width: 1375px) {
+    .language > div{
+        padding: 0 50px;
+    }
+
+    .language > div > img{
+        right: -100px;
+    }
+}
+
+@media only screen and (max-width: 1025px) {
+    .language > div{
+        padding: 0 50px;
+    }
+
+    .language > div > div{
+        gap: 25px;
+    }
+
+    .language > div > div section{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .language > div > img{
+        top: -265px;
+        right: -75px;
+        width: 200px;        
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .language > div{
+        padding: 0 15px;
+    }
+
+    .language > div > div section{
+        border-radius: 8px;
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .language > div > div section img{
+        width: 100px;
+    }
+    .language > div > div section h3{
+        font-size: 1.3em;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    .language > div > div section{
+        padding: 15px 0;
+    }
+
+    .language > div > div section img{
+        width: 75px;
+    }
+
+    .language > div > div section h3{
+        font-size: 1em;
+        margin-top: 10px;
+    }
+
+    .language > div > div section a{
+        font-size: 0.8em;
+    }
+}
